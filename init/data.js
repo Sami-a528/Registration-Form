@@ -22,7 +22,6 @@ let Alldata = [
         gender: "Male",
         department: "CSE",
         coure: "B.Tech",
-        stuPhoto: "https://unsplash.com/photos/a-black-and-white-photo-of-a-shirtless-man-2LlCOtypMUA",
         city: "Narkatiyaganj",
         address: "Mujauna",
     },

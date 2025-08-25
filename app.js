@@ -12,7 +12,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.engine("ejs", ejsMate);
 
-
 main().then((res) => {
     console.log("Connection Successfully");
 }).catch((err) => {
@@ -22,7 +21,6 @@ main().then((res) => {
 async function main() {
     await mongoose.connect("mongodb://127.0.0.1:27017/StudentData");
 };
-
 
 // Show Registration Form
 app.get("/", (req, res) => {
