@@ -1,0 +1,80 @@
+<% layout("./layouts/boilerplate.ejs")%>
+<body>
+    <div class="row mt-5 registrer">
+        <div class="col-4 offset-3 mt-5">
+            <h3>Student Registration Form</h3>
+            <form action="/register" method="post" novalidate class="needs-validation">
+                <div class="mb-3 Name">
+                    <label for="stu" class="form-label">Name of Student : </label>
+                    <input type="text" placeholder="enter name" name="stuName" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter name</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">University Refistration No : </label>
+                    <input type="text" placeholder="enter rollno" name="rollno" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter rollno</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Father Name : </label>
+                    <input type="text" placeholder="enter father name" name="fathername" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter father name</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Mobile No : </label>
+                    <input type="text" placeholder="enter mobile no" name="mobileno" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter mobile no</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Email i'd : </label>
+                    <input type="text" placeholder="enter email i'd" name="emial" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter email i'd</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Password : </label>
+                    <input type="text" placeholder="enter password" name="password" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter password</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Gender : </label>
+                    <input type="text" placeholder="enter gender" name="gender" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter gender</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Department : </label>
+                    <input type="text" placeholder="enter department" name="department" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter department</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Course : </label>
+                    <input type="text" placeholder="enter coures" name="coure" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter course</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">City : </label>
+                    <input type="text" placeholder="enter city" name="city" id="stu" class="form-control" required>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter city</div>
+                </div>
+                <div class="mb-3">
+                    <label for="stu" class="form-label">Address : </label>
+                    <textarea name="address" id="stu" placeholder="enter address" class="form-control" cols="4" rows="5"
+                        required></textarea>
+                    <div class="valid-feedback">looks good</div>
+                    <div class="invalid-feedback">please enter address</div>
+                </div>
+                <button class="btn btn-outline-success sm mb-3">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="/public/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(131, 129, 129);
+}
+.registrer{
+    background-color: rgb(139, 137, 137);
+    border: 2px solid rgb(66, 66, 67);
+    border-radius: 2rem;
+}
+.registrer:hover{
+    filter: drop-shadow(1px 1px 10px black);
+}
+.btn{
+    color: green !important;
+}
+input{
+    background-color: rgb(131, 129, 129) !important;
+}
+textarea{
+    background-color: rgb(131, 129, 129) !important;
+}
+h3{
+    color: maroon !important;
+}
+label{
+    color: rgb(201, 30, 201);
+    opacity: 0.8;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 255, 0.415);
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+    color: maroon;
+    text-align: center;
+    font-size: bold;
+}
